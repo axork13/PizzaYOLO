@@ -1,0 +1,190 @@
+{
+    "pizzas" : [
+        {
+            "id": 1,
+            "name": "4 fromages",
+            "imageUrl": "assets/4fromages.jpg",
+            "ingredients" : [
+                {
+                    "name": "Tomates",
+                    "required": true
+                },
+                {
+                    "name": "Fromages",
+                    "required": true
+                },
+                {
+                    "name": "Chevre",
+                    "required": false
+                },
+                {
+                    "name": "Bleu",
+                    "required": false
+                },
+                {
+                    "name": "Parmesan",
+                    "required": false                    
+                },
+                {
+                    "name": "Mascarpone",
+                    "required": false
+                }
+            ],
+            "toppings" : ["Viande hachée", "Gruyère", "Maroilles", "Huile pimentée"],
+            "prices": [
+                {
+                    "size": "petite",
+                    "price": 4.5
+                }, 
+                {
+                    "size": "moyenne",
+                    "price": 5.5
+                }, 
+                {
+                    "size": "grande",
+                    "price": 6.5
+                } 
+            ] 
+        },
+        {
+            "id": 2,
+            "name": "Chorizo",
+            "imageUrl": "assets/chorizo.jpg",
+            "ingredients" : [
+                {
+                    "name": "Tomates",
+                    "required": true
+                },
+                {
+                    "name": "chorizo",
+                    "required": true
+                }
+            ],
+            "toppings" : ["Huile pimentée"],
+            "prices": [
+                {
+                    "size": "petite",
+                    "price": 5.5
+                }, 
+                {
+                    "size": "moyenne",
+                    "price": 5.9
+                }, 
+                {
+                    "size": "grande",
+                    "price": 7
+                }
+            ] 
+        },
+        {
+            "id": 3,
+            "name": "Végétarienne",
+            "imageUrl": "assets/veggie.jpg",
+            "ingredients" : [
+                {
+                    "name": "Tomates",
+                    "required": true
+                },
+                {
+                    "name": "Fromages",
+                    "required": true
+                },
+                {
+                    "name": "Poivrons",
+                    "required": false
+                },
+                {
+                    "name": "Oignons",
+                    "required": false
+                },
+                {
+                    "name": "Champignon",
+                    "required": false                    
+                }
+            ],
+            "toppings" : ["Olives", "Huile pimentée"],
+            "prices": [
+                {
+                    "size": "petite",
+                    "price": 0.99
+                }, 
+                {
+                    "size": "moyenne",
+                    "price": 1.99
+                }, 
+                {
+                    "size": "grande",
+                    "price": 2.19
+                }
+            ] 
+        },
+        {
+            "id": 4,
+            "name": "Napolitaine",
+            "imageUrl": "assets/napolitaine.jpg",
+            "ingredients" : [
+                {
+                    "name": "Tomates",
+                    "required": true
+                },
+                {
+                    "name": "Jambon",
+                    "required": true
+                },
+                {
+                    "name": "Olives",
+                    "required": false
+                }
+            ],
+            "toppings" : ["Oeuf", "Gruyère", "Huile pimentée"],
+            "prices": [
+                {
+                    "size": "petite",
+                    "price": 2.5
+                }, 
+                {
+                    "size": "moyenne",
+                    "price": 4.5
+                }, 
+                {
+                    "size": "grande",
+                    "price": 8.5
+                }
+            ] 
+        },
+        {
+            "id": 1,
+            "name": "Kebab",
+            "imageUrl": "assets/kebab.jpg",
+            "ingredients" : [
+                {
+                    "name": "Tomates",
+                    "required": true
+                },
+                {
+                    "name": "Viande kebab",
+                    "required": true
+                },
+                {
+                    "name": "Oignons",
+                    "required": false
+                }
+            ],
+            "toppings" : ["Huile pimentée","Sauce pita"],
+            "prices": [
+                {
+                    "size": "petite",
+                    "price": 6.5
+                }, 
+                {
+                    "size": "moyenne",
+                    "price": 9.5
+                }, 
+                {
+                    "size": "grande",
+                    "price": 11
+                }
+            ] 
+        }
+    ]
+}
