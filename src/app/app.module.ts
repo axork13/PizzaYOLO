@@ -15,6 +15,8 @@ import { DetailBasketComponent } from './components/detail-basket/detail-basket.
 import { AddPizzaComponent } from './components/add-pizza/add-pizza.component';
 import { EditPizzaComponent } from './components/edit-pizza/edit-pizza.component';
 import { NewPizzaComponent } from './components/new-pizza/new-pizza.component';
+import { PizzaService } from './services/pizza.service';
+import { AppRoutingModule } from '../app-routing.module';
 
 @NgModule({
   declarations: [
@@ -34,9 +36,10 @@ import { NewPizzaComponent } from './components/new-pizza/new-pizza.component';
     NewPizzaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
-  providers: [],
+  providers: [PizzaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
