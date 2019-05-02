@@ -1,3 +1,15 @@
-<p>
-  pizza works!
-</p>
+<div class="card">
+  <img [src]="pizza.imageUrl" alt="{{pizza.name}}" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">{{pizza.name}}</h5>
+    <div *ngFor="let p of pizza.prices">
+      <label>{{p.size}}</label> {{p.price}} €
+    </div>
+    <div>
+      <a (click)="addToCart()" class="btn btn-warning">Add to Cart</a>
+    </div>
+    <div>
+      <button ng-click="">Details</button>
+    </div>
+  </div>
+</div>

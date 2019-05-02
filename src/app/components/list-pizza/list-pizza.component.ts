@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PizzaService } from '../../services/pizza.service';
 
 @Component({
   selector: 'app-list-pizza',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListPizzaComponent implements OnInit {
 
-  constructor() { }
+  constructor(public pizzaService: PizzaService) { }
 
   ngOnInit() {
   }

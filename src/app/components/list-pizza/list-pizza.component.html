@@ -1,3 +1,18 @@
-<p>
-  list-pizza works!
-</p>
+<div gdAres="header header | side content | footer footer" gdGap="16px" gdRows="auto auto auto">
+  <div gdArea="header">
+
+  </div>
+  <div gdArea="side">
+    <section class="container">
+      <div class="row">
+        <ng-container *ngFor="let pizza of pizzaService.getPizzas()">
+          <app-pizza [id]="pizza.id"></app-pizza>
+        </ng-container>
+      </div>
+    </section>
+  </div>
+
+  <div gdArea="content">
+    
+  </div>
+</div>
